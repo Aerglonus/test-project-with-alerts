@@ -1,0 +1,19 @@
+body {
+    margin: auto;
+    padding: auto;
+    font-family: verdana;
+}
+ .center {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50px);
+    width: 100%;
+
+}
+h1 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #30CFD0, #330867);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 10em;
+}
