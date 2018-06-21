@@ -3,12 +3,11 @@ body {
     padding: auto;
     font-family: verdana;
 }
- .center {
+ .center h1{
     position: absolute;
     top: 40%;
     transform: translateY(-50px);
     width: 100%;
-
 }
 h1 {
   text-transform: uppercase;
