@@ -4,13 +4,14 @@ body {
   background: white;
   font-family: verdana;
 }
-h1 {
+.center {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  margin: 0;
-  padding: 0;
   width: 100%;
+}
+h1 {
+
   text-align: center;
   text-transform: uppercase;
   background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
