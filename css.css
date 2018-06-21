@@ -1,7 +1,7 @@
 body {
   margin-left: 0;
   padding: 0;
-  background-color: blue;
+  background-color:linear-gradient(to right, #30CFD0 0%, #330867 100%);
   background-size: cover;
   font-family: verdana;
 }
