@@ -7,6 +7,9 @@ body {
     justify-content: center;
 }
 h1 {
+  padding-top: 50px;
+  padding-left: 50px;
+  transform: translate(-50px, -50px);
   text-transform: uppercase;
   	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
   	-webkit-background-clip: text;
