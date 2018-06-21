@@ -1,7 +1,8 @@
 body {
   margin-left: 0;
   padding: 0;
-  background: white;
+  background-color: blue;
+  background-size: cover;
   font-family: verdana;
 }
 .center {
