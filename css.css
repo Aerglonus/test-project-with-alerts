@@ -10,7 +10,7 @@ body {
   margin:0 auto;
   overflow: auto;
   white-space: nowrap;
-  border-right: .15em solid orange;\
+  border-right: .15em solid orange;
   animation: typing 3.5s steps(40, end),  blinking-colour .5s step-end infnite;
 }
 h1 {
