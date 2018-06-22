@@ -6,24 +6,6 @@ body {
   font-family: monospace;
 }
 .center {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-}
-h1 {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  text-transform: uppercase;
-  color: white;
-  /*background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 10em; */
-}
-
-.center.typewriter {
   letter-spacing: .15em;
   margin:0 auto;
   overflow: auto;
@@ -31,6 +13,23 @@ h1 {
   border-right: .15em solid orange;\
   animation: typing 3.5s steps(40, end),  blinking-colour .5s step-end infnite;
 }
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  /*background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 10em; */
+}
+
+
 @keyframes typing {
   from {width: 0}
   to {width: 100%}
