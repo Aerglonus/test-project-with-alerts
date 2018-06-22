@@ -5,7 +5,7 @@ body {
   background-size: cover;
   font-family: monospace;
 }
-.center {
+.center h1{
   letter-spacing: .15em;
   margin:0 auto;
   overflow: auto;
