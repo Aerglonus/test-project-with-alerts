@@ -5,14 +5,18 @@ body {
   background-size: cover;
   font-family: monospace;
 }
-.center h1{
-  letter-spacing: .15em;
-  margin:0 auto;
-  overflow: auto;
-  white-space: nowrap;
+
+/*.typewriter h1 {
+  font-family: monospace;
+  overflow: hidden;
   border-right: .15em solid orange;
-  animation: typing 3.5s steps(40, end),  blinking-colour .5s step-end infnite;
-}
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 3.5s steps(30, end),
+    blinking-cursor .5s step-end infinite;
+} */
 h1 {
   margin: 0;
   padding: 0;
@@ -25,21 +29,28 @@ h1 {
   width: 100%;
   /*background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 10em; */
+  -webkit-text-fill-color: transparent; */
+  font-size: 10em;
 }
-
 
 @keyframes typing {
   from {width: 0}
   to {width: 100%}
-
-
 }
 
-@keyframes blinking-colour {
-
+@keyframes blinking-cursor {
   from, to {border-color: transparent}
   50% {border-color: orange}
-
 }
+
+.typewriter h1 {
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin:0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 3.5s steps(40, end),
+    blinking-cursor .5s step-end infinite;
+} */
