@@ -3,13 +3,19 @@ body {
   padding: 0;
   background:linear-gradient(to right, #30CFD0 0%, #330867 100%);
   background-size: cover;
-  font-family: verdana;
+  font-family: monospace;
 }
 .center {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
+  letter-spacing: .15em;
+  margin:0 auto;
+  overflow: auto;
+  white-space: nowrap;
+  border-right: .15em solid orange;\
+  animation: typing 3.5s steps(40, end),  blinking-colour .5s step-end infnite;
 }
 h1 {
   margin: 0;
@@ -19,17 +25,10 @@ h1 {
   color: white;
   /*background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-  font-size: 10em;
+  -webkit-text-fill-color: transparent;
+  font-size: 10em; */
 }
-#typewriter h1{
-  letter-spacing: .15em;
-  margin:0 auto;
-  overflow: auto;
-  white-space: nowrap;
-  border-right: .15em solid orange;\
-  animation: typing 3.5s steps(40, end),  blinking-colour .5s step-end infnite;
-}
+
 
 @keyframes typing {
   from {width: 0}
